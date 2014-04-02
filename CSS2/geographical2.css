@@ -1,0 +1,74 @@
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+li
+{
+float:left;
+}
+
+a:link,a:visited
+{
+display:block;
+width:132px;
+color:white;
+background-color:black;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:lowercase;
+font-family:Gill Sans, sans-serif;
+}
+
+a:hover,a:active
+{
+background-color:gray;
+ground-color:gray;
+}
+
+h3
+{
+font-style:italic;
+}
+
+h1
+{
+color:teal;
+font-family:'Cookie', Helvetica, sans-serif;
+font-size: 75px;
+}
+
+p
+{
+font-size: 25px;
+font-family:Gill Sans, sans-serif;
+}
+
+ol
+{
+font-size: 25px;
+font-family:Gill Sans, sans-serif;
+}
+
+/*article {
+	clear:both;
+}*/
+
+section {
+	display: inline-block;
+	float:left;
+	background-color: none;
+	padding: 10px
+}
+
+.column-content {
+	width:50%;
+}
+
+.column-sidebar{
+	width:47%;
+}
